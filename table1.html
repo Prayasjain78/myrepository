@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+table, th, td {
+    border: 2px solid blue;
+    color: rgb(233, 72, 72);
+    padding: 20px;
+    width: 20px;
+    font-size: 50px;
+}
+table#t01 {
+    width: 100%;    
+    background-color:violet;
+}
+table#t02 {
+    width: 100%;    
+    background-color:gray;
+}
+table#t03 {
+    width: 100%;    
+    background-color:yellow;
+    
+}
+
+</style>
+
+
+
+</head>
+<body>
+<table id="t01" border = "5" cellpadding = "50" cellspacing = "5">
+    <tr>
+        <td>A</td>
+        <td>B</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>
+            <table id="t02" border = "5" cellpadding = "50" cellspacing = "5">
+                <tr>
+                    <td>
+                        <table id="t03" border = "5" cellpadding = "50" cellspacing = "5">
+                            <tr>
+                                <td>D</td>
+                                <td>E</td>
+                            </tr>
+                            <tr>
+                                <td>F</td>
+                                <td>G</td>
+                            </tr>
+                        </table>
+                    </td>
+                <td>H</td>
+            </tr>
+                <tr>
+                    <td>I</td>
+                    <td>J</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
